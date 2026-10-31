@@ -1,32 +1,37 @@
-# React + TypeScript + Vite
+# CareMap AI
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+CareMap AI is a research proof-of-concept exploring how artificial intelligence can support family caregivers of older adults living in the community.
 
-Currently, two official plugins are available:
+## Project Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+The platform helps caregivers organise information about their caregiving situation, identify potential gaps in support, and explore practical next steps.
 
-## React Compiler
+## Core Workflow
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+1. Initial caregiver input
+2. AI-generated Care Map draft
+3. Review and clarification
+4. Two complementary Care Map views
+5. Gap confirmation and next steps
+6. Time-based updates
+7. Updated Care Map
+8. Suggested next steps
+9. Final overview
 
-## Expanding the Oxlint configuration
+## Key Principles
 
-If you are developing a production application, we recommend enabling type-aware lint rules by installing `oxlint-tsgolint` and editing `.oxlintrc.json`:
+- Human-in-the-loop interaction
+- Caregiver review and confirmation
+- Transparency about AI-generated interpretations
+- Privacy and minimal data collection
+- Clear distinction between known and unknown information
 
-```json
-{
-  "$schema": "./node_modules/oxlint/configuration_schema.json",
-  "plugins": ["react", "typescript", "oxc"],
-  "options": {
-    "typeAware": true
-  },
-  "rules": {
-    "react/rules-of-hooks": "error",
-    "react/only-export-components": ["warn", { "allowConstantExport": true }]
-  }
-}
-```
+## Technology
 
-See the [Oxlint rules documentation](https://oxc.rs/docs/guide/usage/linter/rules) for the full list of rules and categories.
+- React
+- TypeScript
+- Vite
+
+## Project Status
+
+Research prototype. Not a clinically validated product and not intended to provide medical advice.
