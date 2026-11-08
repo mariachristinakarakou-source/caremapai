@@ -55,11 +55,11 @@ select {
 }
 
 button {
-  transition: transform 0.15s ease, opacity 0.15s ease;
+  transition: background-color 0.15s ease, border-color 0.15s ease, color 0.15s ease, opacity 0.15s ease;
 }
 
 button:hover {
-  transform: translateY(-1px);
+  transform: none;
 }
 
 #root {
